@@ -24,7 +24,7 @@ curl 'http://localhost:8080/bad' -H 'aaa: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 The first returns 404 then second 502. 
 
-Feel free to test this against http://localhost:8080/good or http://localhost:8081 or http://localhost:8082.
+Feel free to test this against http://localhost:8080/good or http://localhost:8081 or http://localhost:8082 (use `--http2-prior-knowledge`).
 You will notice that all other endpoints work.
 
 HaProxy outputs something like
